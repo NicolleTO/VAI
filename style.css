@@ -2,8 +2,33 @@ body {
     background-color: #544C32;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     text-align: center;
-  }
+}
 
+.header {
+    display: flex;
+    align-items: center; 
+    padding: 10px 20px; 
+}
+
+.header a {
+    
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    padding: 15px 20px;
+    border-radius: 12px;
+
+    background-color: #161616;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+
+    cursor: pointer;
+    transition: transform 0.2s;
+}
 
 .icone {
     margin-left: 15px;
@@ -141,5 +166,3 @@ button#fechar, button#abrir{
 button#fechar{
     float: right;
 }
-
-
